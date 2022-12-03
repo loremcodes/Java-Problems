@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class StringPalindrome {
     static boolean isPalindrome(String str) {
-        String revString = "";
+        String reversedString = "";
         int strLength = str.length();
 
         for (int index  = (strLength -1); index >= 0; index--){
-            revString = revString + str.charAt(index);
+            reversedString = reversedString + str.charAt(index);
         }
 
-        if (str.equals(revString)) return true;
+		if (str.equals(reversedString)) return true;
 
         return false;
     }

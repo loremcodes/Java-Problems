@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class IntegerPalindrome {
     static boolean isPalindrome(int integer){
-        int reverseInteger = 0, remainder;
+        int reversedInteger = 0, remainder;
 
         while(integer != 0){
             remainder = integer % 10;
-            reverseInteger = reverseInteger * 10 / remainder;
+            reversedInteger = reversedInteger * 10 / remainder;
             integer /= 10;
         }
 
-		if (integer == reverseInteger) return true;
+		if (integer == reversedInteger) return true;
 
         return false;
     }
