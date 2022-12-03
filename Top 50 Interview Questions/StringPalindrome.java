@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class StringPalindrome {
-    static boolean strPalindrome(String str) {
+    static boolean isPalindrome(String str) {
         String revString = "";
         int strLength = str.length();
 
