@@ -11,7 +11,7 @@ public class Factorial {
             return 1;
 
         // for other numbers
-        for (int index = 2; index <= integr; index++){
+        for (int index = 2; index <= integer; index++){
             result = result * index;
         }
 
