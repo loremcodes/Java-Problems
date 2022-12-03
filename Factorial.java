@@ -1,21 +1,27 @@
+// Top 50 common interview programs -> 7. Factorial Program
+
 import java.util.Scanner;
 
 public class Factorial {
-    public static void main (String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-
+    static int factorial(int integer){
         int result = 1;
 
-        if (input == 0 || input == 1){
-            System.out.println(1); // By defination
-        } else {
-            for (int index = 2; index < input; index++){
-                result = result * index;
-            }
-            System.out.println(result);
+        // By defination
+		if (integer == 0 || integer == 1)
+            return 1;
+
+        // for other numbers
+        for (int index = 2; index <= integr; index++){
+            result = result * index;
         }
 
-        sc.close();
+		return result;
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int integer = sc.nextInt();
+
+        System.out.println(factorial(5));
     }
 }
