@@ -1,9 +1,9 @@
 # Java-Problems
-sjprasad-bit/Java-Problems has solved Preinsta "Top 50 common interview question" in Java language
+sjprasad-bit/Java-Problems has solved Preinsta "Top 50 common interview programs" in Java language
 
-.class and .java floder are kept separate for conv
+.class and .java floder are kept separate for convenience
 
-Question follow following numbers <br>
+Programs are in following sequence <br>
 1. Fibonacci series <br>
 2. Checking Prime Numbers <br>
 3. String Palindrome <br>
